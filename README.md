@@ -1,22 +1,23 @@
-# Moiré Magnons in Twisted Bilayer CrSBr
+# Quantum Magnonics in Twisted Bilayer CrSBr
 
-This repository contains the code related to the Master's thesis on magnonic excitations in bilayer CrSBr (Chromium Sulfide Bromide) with and without twist angles, focusing on moiré magnetism and spin-wave theory.
+This repository contains the code developed for the Master's Degree thesis in Quantum Technology (UIMP-CSIC) by Lucas Tristán Artigas.  
+Thesis title: *Quantum Magnonics in Twisted Bilayer CrSBr*
 
 ---
 
 ## Repository Structure
 
-- **TWISTED_BILAYER_CRSBR/**  
-  Contains code, data, and scripts related to modeling and analyzing the magnon band structure and spin-wave excitations in *twisted* bilayer CrSBr systems with moiré superlattice effects.
+- **TWISTED_BILAYER_CRSBR**  
+  This file includes the numerical computation of the magnon band structure, the moiré-modulated interlayer coupling and the ground state spin configuration of twisted bilayer CrSBr. Additionally, it contains the study of the spontaneous emission decay rate in the Markovian regime.
 
-- **UNTWISTED_BILAYER_CRSBR/**  
-  Contains code and analysis for the *untwisted* bilayer CrSBr system, serving as the baseline model without twist-induced moiré phenomena.
+- **UNTWISTED_BILAYER_CRSBR**  
+  This file contains the magnon band structure of untwisted bilayer CrSBr.
 
 ---
 
 ## Description
 
-The project investigates the quantum magnonics properties of two-dimensional orthorhombic magnetic systems, specifically focusing on bilayer CrSBr materials. Using bosonic Bogoliubov–de Gennes Hamiltonians and plane-wave expansions, the code computes magnon dispersion relations and band structures both in untwisted and twisted bilayer configurations. The twisted bilayer introduces moiré superlattice effects, enabling the study of flat magnon bands and potential "magic angle" phenomena.
+The project investigates the quantum magnonics properties of two-dimensional orthorhombic magnetic systems, specifically focusing on bilayer CrSBr materials. By using a first-order plane-wave expansion in the moiré superlattice, the code computes magnon dispersion relations both in untwisted and twisted bilayer configurations.
 
 ---
 
